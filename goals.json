@@ -1,0 +1,5 @@
+[
+  {"name": "Drink Water", "description": "Stay hydrated", "difficulty": "Easy", "xp": 10},
+  {"name": "Meditate 10 min", "description": "Mindfulness practice", "difficulty": "Medium", "xp": 15},
+  {"name": "Workout 30 min", "description": "Stay fit", "difficulty": "Hard", "xp": 25}
+]

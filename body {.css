@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+#chat {
+  margin: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.ai {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.quick-actions button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #2575fc;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BetterYou AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#" onclick="showProfile()">Profile</a>
+    <a href="#" onclick="loadGoals()">Daily Goals</a>
+    <a href="#" onclick="generateGoal()">Random Goal</a>
+  </nav>
+
+  <div id="chat">
+    <h2>AI Coach Chat</h2>
+    <div id="messages"></div>
+    <input id="userInput" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+    <div class="quick-actions">
+      <button onclick="showGoals()">Show Today’s Goals</button>
+      <button onclick="generateGoal()">Generate Random Goal</button>
+      <button onclick="motivateMe()">Motivate Me</button>
+      <button onclick="weeklyXP()">Weekly XP</button>
+    </div>
+  </div>
+
+  <div id="dashboard"></div>
+  <div id="profile"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
