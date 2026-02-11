@@ -12,7 +12,8 @@ function sendMessage() {
   fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_API_KEY", // replace with your key
+      "Authorization": "Bearer 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
+", // replace with your key
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -75,4 +76,5 @@ function weeklyXP() {
 function showProfile() {
   let profile = document.getElementById("profile");
   profile.innerHTML = "<h3>Profile</h3><p>Name: User<br>Level: 2<br>Total XP: 250</p>";
+
 }
